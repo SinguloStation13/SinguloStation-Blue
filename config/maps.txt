@@ -51,6 +51,10 @@ endmap
 
 #Debug Maps, you probably don't want these enabled.
 
+map cryostation
+	voteable
+endmap
+
 map runtimestation
 	disabled
 endmap
