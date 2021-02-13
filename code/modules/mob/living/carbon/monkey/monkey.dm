@@ -20,6 +20,7 @@
 	mobchatspan = "monkeyhive"
 	ai_controller = /datum/ai_controller/monkey
 	faction = list("neutral", "monkey")
+	appearance_flags = KEEP_TOGETHER|TILE_BOUND|PIXEL_SCALE //Singulostation edit - Dust animation
 
 /mob/living/carbon/monkey/Initialize(mapload, cubespawned=FALSE, mob/spawner)
 	add_verb(/mob/living/proc/mob_sleep)
