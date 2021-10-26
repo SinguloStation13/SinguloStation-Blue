@@ -266,7 +266,7 @@
 	if(!ui)
 		ui = new(user, src, "TurbineComputer")
 		ui.open()
-		ui.set_autoupdate(TRUE)
+		ui.set_autoupdate(TRUE) // Turbine stats (power, RPM, temperature)
 
 /obj/machinery/power/turbine/ui_data(mob/user)
 	var/list/data = list()
@@ -332,6 +332,7 @@
 	if(!ui)
 		ui = new(user, src, "TurbineComputer")
 		ui.open()
+		ui.set_autoupdate(TRUE) // Turbine stats (power, RPM, temperature)
 
 /obj/machinery/computer/turbine_computer/ui_data(mob/user)
 	var/list/data = list()

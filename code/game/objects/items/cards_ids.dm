@@ -548,6 +548,15 @@ update_label("John Doe", "Clowny")
 	access = get_all_accesses()
 	. = ..()
 
+/obj/item/card/id/ert/kudzu
+	registered_name = "Weed Whacker"
+	assignment = "Weed Whacker"
+	icon_state = "ert"
+
+/obj/item/card/id/ert/kudzu/Initialize()
+	access = get_all_accesses()
+	. = ..()
+
 /obj/item/card/id/prisoner
 	name = "prisoner ID card"
 	desc = "You are a number, you are not a free man."
@@ -648,6 +657,7 @@ update_label("John Doe", "Clowny")
 	icon_state = "budget"
 	var/department_ID = ACCOUNT_CIV
 	var/department_name = ACCOUNT_CIV_NAME
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/item/card/id/departmental_budget/Initialize()
 	. = ..()
@@ -773,7 +783,7 @@ update_label("John Doe", "Clowny")
 	if (!proximity)
 		return .
 	var/obj/item/card/id/idcard = target
-	if(istype(idcard))		
+	if(istype(idcard))
 		for(var/give_access in access)
 			idcard.access |= give_access
 		if(assignment!=initial(assignment))
