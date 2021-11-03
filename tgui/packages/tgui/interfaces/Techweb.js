@@ -496,7 +496,7 @@ const TechwebItemmaterials = (props, context) => {
   const { act, data } = useRemappedBackend(context);
   const { itemmats, itempoints } = data;
 
-  return (
+  return (itempoints || itemmats) && (
     <Section mt={1} className="Techweb__NodeContainer">
       {!!itempoints && (
         <>
@@ -512,16 +512,18 @@ const TechwebItemmaterials = (props, context) => {
           <Divider />
         </>
       )}
-      <Flex direction="column">
-        Reclaimable materials:
-        {itemmats.map(mats => {
-          return (
-            <Flex.Item key={mats}>
-              {mats}
-            </Flex.Item>
-          );
-        })}
-      </Flex>
+      {!!itemmats && (
+        <Flex direction="column">
+          Reclaimable materials:
+          {itemmats.map(mats => {
+            return (
+              <Flex.Item key={mats}>
+                {mats}
+              </Flex.Item>
+            );
+          })}
+        </Flex>
+      )}
     </Section>
   );
 };
