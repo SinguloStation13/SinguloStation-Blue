@@ -28,7 +28,8 @@
 
 /mob/living/dust(just_ash, drop_items, force)
 	Stun(100, ignore_canstun=TRUE) // Singulo edit - Dust animation
-
+	anchored = TRUE
+	density = FALSE
 	if(drop_items)
 		unequip_everything()
 
