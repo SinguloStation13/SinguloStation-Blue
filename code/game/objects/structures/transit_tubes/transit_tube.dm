@@ -8,23 +8,12 @@
 	layer = LOW_ITEM_LAYER
 	anchored = TRUE
 	climbable = TRUE
-<<<<<<< HEAD
-=======
 	pass_flags_self = PASSGLASS
->>>>>>> 2e81725b89... ports tg's projectile rework, passflags rework (#5680)
 	var/tube_construction = /obj/structure/c_transit_tube
 	var/list/tube_dirs //list of directions this tube section can connect to.
 	var/exit_delay = 1
 	var/enter_delay = 0
 
-<<<<<<< HEAD
-/obj/structure/transit_tube/CanPass(atom/movable/mover, turf/target)
-	if(istype(mover) && (mover.pass_flags & PASSGLASS))
-		return TRUE
-	return !density
-
-=======
->>>>>>> 2e81725b89... ports tg's projectile rework, passflags rework (#5680)
 /obj/structure/transit_tube/New(loc, newdirection)
 	..(loc)
 	if(newdirection)
