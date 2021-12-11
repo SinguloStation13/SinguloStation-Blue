@@ -29,3 +29,7 @@ endmap
 map multiz_debug
 	disabled
 endmap
+
+map etastation
+	voteable
+endmap
