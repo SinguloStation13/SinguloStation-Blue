@@ -1213,6 +1213,8 @@
 /obj/item/storage/backpack/duffelbag/mining_conscript,
 /obj/item/pickaxe,
 /obj/item/shovel,
+/obj/item/gun/energy/kinetic_accelerator,
+/obj/item/kinetic_crusher,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
 "GE" = (
@@ -1400,6 +1402,8 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/gun/energy/kinetic_accelerator,
+/obj/item/kinetic_crusher,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
 "LZ" = (
