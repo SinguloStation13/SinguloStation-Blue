@@ -111,7 +111,7 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "da" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
+/obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "di" = (
@@ -748,7 +748,7 @@
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "sK" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
+/obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "sY" = (
@@ -835,7 +835,7 @@
 /turf/open/floor/plasteel,
 /area/construction/storage_wing)
 "vV" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
+/obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
 /area/quartermaster/miningoffice)
 "vX" = (
@@ -916,7 +916,7 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "ya" = (
-/obj/item/stack/sheet/metal/five,
+/obj/item/stack/sheet/iron/five,
 /turf/open/floor/plating/airless{
 	icon_plating = "plating_rust";
 	icon_state = "plating_rust"
@@ -926,7 +926,7 @@
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/rglass{
 	amount = 50;
 	pixel_x = 2;
@@ -934,7 +934,7 @@
 	},
 /obj/item/stack/rods/fifty,
 /obj/item/stack/rods/fifty,
-/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel,
 /area/construction/storage_wing)
@@ -1235,7 +1235,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "HA" = (
-/obj/effect/spawner/structure/window/reinforced/shutters,
+/obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
 /area/science/server)
 "HG" = (
@@ -1767,7 +1767,7 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "TK" = (
-/obj/machinery/autolathe/hacked,
+/obj/machinery/modular_fabricator/autolathe/hacked,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "TZ" = (
