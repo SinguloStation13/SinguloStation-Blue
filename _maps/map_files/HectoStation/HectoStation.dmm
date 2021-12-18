@@ -34,6 +34,10 @@
 /obj/structure/closet/crate{
 	name = "SinguloStation Supplies"
 	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "ba" = (
@@ -1960,9 +1964,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
-	},
-/obj/machinery/firealarm{
-	pixel_y = 24
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
