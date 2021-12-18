@@ -270,6 +270,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "gO" = (
@@ -796,6 +797,10 @@
 	},
 /turf/open/space/basic,
 /area/solar/starboard)
+"uT" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "uZ" = (
 /obj/machinery/power/solar_control{
 	dir = 1
@@ -1297,6 +1302,13 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"Ir" = (
+/obj/machinery/computer/bounty{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/quartermaster/storage)
 "ID" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2105,6 +2117,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "YI" = (
@@ -42677,7 +42690,7 @@ GD
 LV
 SS
 Sy
-CK
+uT
 Ng
 CK
 BC
@@ -42934,9 +42947,9 @@ Sy
 Sy
 Sy
 Sy
-CK
+uT
 gt
-CK
+Ir
 Pp
 Zj
 hM
