@@ -22,6 +22,24 @@ map cryostation
 	voteable
 endmap
 
+<<<<<<< HEAD
+=======
+#Does not support fastmos
+
+map kilostation
+	maxplayers 60
+	votable
+	disabled
+endmap
+
+map flandstation
+	minplayers 40
+	votable
+endmap
+
+#Debug Maps, you probably don't want these enabled.
+
+>>>>>>> 13dd5ac712... Flandstation (#5617)
 map runtimestation
 	disabled
 endmap
