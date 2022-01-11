@@ -583,8 +583,13 @@ BOMBCAP 24
 ## of ruins.
 LAVALAND_BUDGET 60
 
+<<<<<<< HEAD
 ## Space Ruin Budged
 Space_Budget 26
+=======
+## Space Ruin Budget
+Space_Budget 8
+>>>>>>> 085f501e26... fix game_options typo (#6166)
 
 ## Time in ds from when a player latejoins till the arrival shuttle docks at the station
 ## Must be at least 30. At least 55 recommended to be visually/aurally appropriate
