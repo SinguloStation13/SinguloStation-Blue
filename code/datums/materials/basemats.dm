@@ -4,6 +4,7 @@
 	id = "iron"
 	desc = "Common iron ore often found in sedimentary and igneous layers of the crust."
 	color = "#878687"
+	greyscale_colors = "#878687"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/iron
 	coin_type = /obj/item/coin/iron
@@ -15,6 +16,7 @@
 	id = "glass"
 	desc = "Glass forged by melting sand."
 	color = "#dae6f0"
+	greyscale_colors = "#dae6f0"
 	alpha = 210
 	categories = list(MAT_CATEGORY_RIGID = TRUE)
 	integrity_modifier = 0.1
@@ -28,6 +30,7 @@
 	id = "silver"
 	desc = "Silver"
 	color = "#bdbebf"
+	greyscale_colors = "#bdbebf"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/silver
 	coin_type = /obj/item/coin/silver
@@ -39,6 +42,7 @@
 	id = "gold"
 	desc = "Gold"
 	color = "#f0972b"
+	greyscale_colors = "#f0972b"
 	strength_modifier = 1.2
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/gold
@@ -51,6 +55,7 @@
 	id = "diamond"
 	desc = "Highly pressurized carbon"
 	color = "#22c2d4"
+	greyscale_colors = "#22c2d4"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/diamond
 	coin_type = /obj/item/coin/diamond
@@ -62,6 +67,7 @@
 	id = "uranium"
 	desc = "Uranium"
 	color = "#1fb83b"
+	greyscale_colors = "#1fb83b"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/uranium
 	coin_type = /obj/item/coin/uranium
@@ -82,6 +88,7 @@
 	id = "plasma"
 	desc = "Isn't plasma a state of matter? Oh whatever."
 	color = "#c716b8"
+	greyscale_colors = "#c716b8"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/plasma
 	coin_type = /obj/item/coin/plasma
@@ -104,6 +111,7 @@
 	id = "bluespace_crystal"
 	desc = "Crystals with bluespace properties"
 	color = "#506bc7"
+	greyscale_colors = "#506bc7"
 	categories = list(MAT_CATEGORY_ORE = TRUE)
 	sheet_type = /obj/item/stack/sheet/bluespace_crystal
 	ore_type = /obj/item/stack/ore/bluespace_crystal
@@ -114,6 +122,7 @@
 	id = "bananium"
 	desc = "Material with hilarious properties"
 	color = "#fff263"
+	greyscale_colors = "#fff263"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/bananium
 	coin_type = /obj/item/coin/bananium
@@ -136,6 +145,7 @@
 	id = "titanium"
 	desc = "Titanium"
 	color = "#b3c0c7"
+	greyscale_colors = "#b3c0c7"
 	strength_modifier = 1.3
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/titanium
@@ -147,6 +157,7 @@
 	id = "plastic"
 	desc = "plastic"
 	color = "#caccd9"
+	greyscale_colors = "#caccd9"
 	strength_modifier = 0.85
 	sheet_type = /obj/item/stack/sheet/plastic
 
@@ -156,6 +167,7 @@
 	id = "biomass"
 	desc = "Organic matter"
 	color = "#735b4d"
+	greyscale_colors = "#735b4d"
 	strength_modifier = 0.8
 
 
@@ -164,6 +176,7 @@
 	id = "copper"
 	desc = "Copper is a soft, malleable, and ductile metal with very high thermal and electrical conductivity."
 	color = "#d95802"
+	greyscale_colors = "#d95802"
 	categories = list(MAT_CATEGORY_ORE = TRUE, MAT_CATEGORY_RIGID = TRUE)
 	sheet_type = /obj/item/stack/sheet/mineral/copper
 	ore_type = /obj/item/stack/ore/copper
