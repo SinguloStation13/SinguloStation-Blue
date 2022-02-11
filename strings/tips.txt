@@ -117,7 +117,7 @@ As the Head of Security, you can call for executions or forced cyborgization, bu
 As the Head of Security, don't let the power go to your head. You may have high access, great equipment, and a miniature army at your side, but being a terrible person without a good reason is grounds for banning.
 As the Warden, your duty is to be the watchdog of the brig and handler of prisoners when little is happening, and to hand out equipment and weapons to the security officers when a crisis strikes.
 As the Warden, keep a close eye on the armory at all times, as it is a favored strike point of nuclear operatives and cocky traitors.
-As the Warden, if a prisoner's crimes are heinous enough you can put them in permabrig or the gulag forever, with the Head of Security's approval. Make sure to check on them once in a while!
+As the Warden, if a prisoner's crimes are heinous enough you can put them in permabrig or the gulag. Make sure to check on them once in a while!
 As the Warden, you can implant criminals you suspect might re-offend with devices that will track their location and allow you to remotely inject them with disabling chemicals.
 As the Warden, you can use handcuffs on orange prisoner shoes to turn them into cuffed shoes, forcing prisoners to walk and potentially thwarting an escape.
 As a Security Officer, communicate and coordinate with your fellow officers using the security channel (:s) to avoid confusion.
@@ -238,6 +238,9 @@ As a Morph, you can talk while disguised, but your words have a chance of being 
 As a Drone, you can ping other drones to alert them of areas in the station in need of repair.
 As a Ghost, you can see the inside of a container on the ground by clicking on it.
 As a Ghost, you can double click on just about anything to follow it. Or just warp around!
+As a Devil, you gain power for every three souls you control, however you also become more obvious.
+As a Devil, as long as you control at least one other soul, you will automatically resurrect, as long as a banishment ritual is not performed.
+At which time a Devil's nameth is spake on the tongue of man, the Devil may appeareth.
 As a Security Officer, remember that correlation does not equal causation. Someone may have just been at the wrong place at the wrong time!
 As a Security Officer, remember that you can attach a sec-lite to your disabler or your helmet!
 You can swap floor tiles by holding a crowbar in one hand and a stack of tiles in the other.
@@ -249,6 +252,7 @@ You can light a cigar on a supermatter crystal.
 Walking negates all wallstuns. Walk to avoid flashes, slipping on water, etc. Walking also does not trigger motion detector flashes!
 Cloners require 90 units of synthflesh per clone. When upgraded to tier 4 parts, these cloners can clone one person much cheaper!
 You can perform self-surgery for amputation, tend wounds, implanting and others. It only has 20% success rate though per step, bumping hot to 40% if there's a mirror in the same room.
+When Experimental Surgery is unlocked, you can build an Autodoc. This allows you to automatically add any implant in seconds.
 Fun fact: reading this (https://beestation13.com/rules) may lead to an increase in your chances on not being banned. Seriously. Read it.
 You can whisper by putting # before your message. You can also whisper in critical, however it may kill you depending on how hurt you are.
 Fore = north, aft = south, starboard = east and port = west.
