@@ -5,6 +5,10 @@
 	icon = 'icons/obj/atmos.dmi'
 	level = 2 //Always visible.
 
+	construction_type = /obj/item/pipe/directional
+	device_type = UNARY
+	pipe_state = "multiz_pipe"
+	
 /obj/machinery/atmospherics/pipe/simple/multiz/layer1
 	piping_layer = 1
 

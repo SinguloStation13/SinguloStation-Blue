@@ -267,6 +267,18 @@
 	playsound(loc, 'sound/weapons/bladeslice.ogg', 100, 1)
 
 
+/obj/machinery/atmospherics/components/unary/vent_scrubber/high_volume
+	name = "large scrubber"
+	idle_power_usage = 25
+	active_power_usage = 150
+	volume_rate = 1000
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/high_volume/New()
+	..()
+	var/datum/gas_mixture/air_contents = airs[1]
+	air_contents.set_volume(1000)
+
+//Mapping
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer1
 	piping_layer = 1
 	icon_state = "scrub_map-1"
