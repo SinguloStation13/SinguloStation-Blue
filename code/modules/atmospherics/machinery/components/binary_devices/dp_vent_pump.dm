@@ -46,9 +46,6 @@
 	pipe_state = "dpvent"
 	construction_type = /obj/item/pipe/directional
 
-/obj/machinery/atmospherics/components/binary/dp_vent_pump/New()
-	..()
-
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/Destroy()
 	SSradio.remove_object(src, frequency)
 	if(aac)

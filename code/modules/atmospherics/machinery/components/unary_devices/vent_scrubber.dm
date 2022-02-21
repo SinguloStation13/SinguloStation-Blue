@@ -269,8 +269,8 @@
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/high_volume
 	name = "large scrubber"
-	idle_power_usage = 25
-	active_power_usage = 150
+	idle_power_usage = 60
+	active_power_usage = 360
 	volume_rate = 1000
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/high_volume/New()

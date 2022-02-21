@@ -32,10 +32,9 @@
 		var/turf/T = loc
 		T.assume_air(air_contents)
 		air_update_turf()
-	..()
+	return ..()
 
 /obj/machinery/atmospherics/components/unary/tank/welder_act(mob/living/user, obj/item/I)
-	..()
 	if(user.a_intent == INTENT_HELP)
 		if(obj_integrity <= max_integrity)
 			if(!I.tool_start_check(user, amount=0))
