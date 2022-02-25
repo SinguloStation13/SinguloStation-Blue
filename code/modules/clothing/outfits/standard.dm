@@ -276,6 +276,7 @@
 	r_pocket = /obj/item/lighter
 	back = /obj/item/storage/backpack/satchel/leather
 	id = /obj/item/card/id
+	r_hand = /obj/item/megaphone/command
 
 /datum/outfit/admiral/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -340,7 +341,7 @@
 	name = "Marisa Wizard"
 
 	suit = /obj/item/clothing/suit/wizrobe/marisa
-	shoes = /obj/item/clothing/shoes/sandal/marisa
+	shoes = /obj/item/clothing/shoes/sneakers/marisa
 	head = /obj/item/clothing/head/wizard/marisa
 
 /datum/outfit/soviet
@@ -392,6 +393,9 @@
 	W.update_label()
 
 /datum/outfit/plasmaman
+	var/list/helmet_variants = list(HELMET_MK2 = /obj/item/clothing/head/helmet/space/plasmaman/mark2,
+									HELMET_PROTECTIVE = /obj/item/clothing/head/helmet/space/plasmaman/protective)
+
 	name = "Plasmaman"
 
 	head = /obj/item/clothing/head/helmet/space/plasmaman

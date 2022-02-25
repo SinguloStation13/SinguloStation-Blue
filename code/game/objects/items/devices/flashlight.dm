@@ -378,8 +378,8 @@
 	/// How many seconds between each recharge
 	var/charge_delay = 20
 
-/obj/item/flashlight/emp/New()
-	..()
+/obj/item/flashlight/emp/Initialize(mapload)
+	. = ..()
 	START_PROCESSING(SSobj, src)
 
 /obj/item/flashlight/emp/Destroy()
@@ -564,6 +564,7 @@
 	name = "disco light"
 	desc = "Groovy..."
 	icon_state = null
+	light_system = STATIC_LIGHT
 	light_range = 4
 	light_power = 10
 	alpha = 0

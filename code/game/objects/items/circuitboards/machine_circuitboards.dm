@@ -257,6 +257,14 @@
 		/obj/item/stack/cable_coil = 5,
 		/obj/item/stock_parts/capacitor = 6)
 
+/obj/item/circuitboard/machine/igniter
+	name = "igniter (Machine Board)"
+	icon_state = "engineering"
+	build_path = /obj/machinery/igniter
+	req_components = list(
+		/obj/item/assembly/igniter = 1
+	)
+
 /obj/item/circuitboard/machine/protolathe/department/engineering
 	name = "departmental protolathe - engineering (Machine Board)"
 	icon_state = "engineering"
@@ -318,6 +326,15 @@
 	build_path = /obj/machinery/atmospherics/components/unary/shuttle/heater
 	req_components = list(/obj/item/stock_parts/micro_laser = 2,
 		/obj/item/stock_parts/matter_bin = 1)
+
+/obj/item/circuitboard/machine/plasma_refiner
+	name = "plasma refinery (Machine Board)"
+	build_path = /obj/machinery/atmospherics/components/unary/plasma_refiner
+	req_components = list(
+		/obj/item/stock_parts/micro_laser = 2,
+		/obj/item/stack/sheet/glass = 1,
+		/obj/item/assembly/igniter = 1
+	)
 
 /obj/item/circuitboard/machine/scanner_gate
 	name = "scanner gate (Machine Board)"
@@ -594,6 +611,17 @@
 //Medical
 
 
+/obj/item/circuitboard/machine/autodoc
+	name = "Autodoc (Machine Board)"
+	icon_state = "medical"
+	build_path = /obj/machinery/autodoc
+	req_components = list(/obj/item/scalpel/advanced = 1,
+		/obj/item/retractor/advanced = 1,
+		/obj/item/surgicaldrill/advanced = 1,
+		/obj/item/stock_parts/manipulator = 1,
+		/obj/item/stock_parts/micro_laser = 3,
+		/obj/item/stock_parts/matter_bin = 1)
+
 /obj/item/circuitboard/machine/chem_dispenser
 	name = "chem dispenser (Machine Board)"
 	icon_state = "medical"
@@ -803,6 +831,11 @@
 	name = "departmental circuit imprinter - science (Machine Board)"
 	icon_state = "science"
 	build_path = /obj/machinery/rnd/production/circuit_imprinter/department/science
+
+/obj/item/circuitboard/machine/circuit_imprinter/department/engineering
+	name = "departmental circuit imprinter - engineering (Machine Board)"
+	icon_state = "engineering"
+	build_path = /obj/machinery/rnd/production/circuit_imprinter/department/engineering
 
 /obj/item/circuitboard/machine/cyborgrecharger
 	name = "cyborg recharger (Machine Board)"
@@ -1073,6 +1106,14 @@
 		/obj/item/stack/cable_coil = 2,
 		/obj/item/stack/sheet/glass = 2)
 	needs_anchored = FALSE
+
+/obj/item/circuitboard/machine/mass_driver
+	name = "mass driver (Machine Board)"
+	build_path = /obj/machinery/mass_driver
+	req_components = list(
+		/obj/item/stock_parts/manipulator = 2,
+		/obj/item/stock_parts/capacitor = 1
+	)
 
 /obj/item/circuitboard/machine/plantgenes
 	name = "plant DNA manipulator (Machine Board)"
