@@ -43,7 +43,6 @@ GLOBAL_LIST_INIT(atmos_pipe_recipes, list(
 		new /datum/pipe_info/pipe("Temperature Pump",	/obj/machinery/atmospherics/components/binary/temperature_pump),
 		new /datum/pipe_info/pipe("Dual-port Air Vent",			/obj/machinery/atmospherics/components/binary/dp_vent_pump),
 		new /datum/pipe_info/pipe("Large Dual-port Air Vent",	/obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume),
-		new /datum/pipe_info/pipe("Pressure Tank",				/obj/machinery/atmospherics/components/unary/tank),
 	),
 	"Heat Exchange" = list(
 		new /datum/pipe_info/pipe("Pipe",				/obj/machinery/atmospherics/pipe/heat_exchanging/simple),
