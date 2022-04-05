@@ -1212,7 +1212,7 @@
 	..()
 	ADD_TRAIT(M, TRAIT_NOVOMIT, type)
 
-/datum/reagent/medicine/meclizin/on_mob_end_metabolize(mob/living/M)
+/datum/reagent/medicine/meclizine/on_mob_end_metabolize(mob/living/M)
 	..()
 	REMOVE_TRAIT(M, TRAIT_NOVOMIT, type)
 
