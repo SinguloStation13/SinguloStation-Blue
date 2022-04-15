@@ -60469,6 +60469,10 @@
 	},
 /turf/closed/wall/r_wall,
 /area/engine/supermatter)
+"tWw" = (
+/obj/machinery/ecto_sniffer,
+/turf/open/floor/plasteel,
+/area/science/robotics/lab)
 "tXm" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -99908,7 +99912,7 @@ bgC
 bkv
 blF
 bmM
-bmM
+tWw
 wug
 bqh
 brx

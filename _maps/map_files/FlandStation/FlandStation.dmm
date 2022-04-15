@@ -53238,6 +53238,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/ecto_sniffer,
 /turf/open/floor/plasteel/grid/steel,
 /area/science/robotics/lab)
 "mll" = (
