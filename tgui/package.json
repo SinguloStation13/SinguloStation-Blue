@@ -55,5 +55,12 @@
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2"
   },
+<<<<<<< HEAD
+=======
+  "resolutions": {
+    "ajv": "^6.12.3",
+    "minimist": "^1.2.6"
+  },
+>>>>>>> 2f39577854... Forces minimist's resolution to 1.2.6 (#6708)
   "packageManager": "yarn@3.1.1"
 }
