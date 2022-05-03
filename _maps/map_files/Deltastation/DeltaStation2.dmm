@@ -52837,11 +52837,16 @@
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain)
 "bXg" = (
+<<<<<<< HEAD
 /obj/structure/displaycase/captain{
 	req_access = null;
 	req_access_txt = "20"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+=======
+/obj/structure/displaycase/captain,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+>>>>>>> 867daf2dd8... Various things involving the Captain's Laser and display cases.  (#6753)
 	dir = 9
 	},
 /obj/machinery/firealarm/directional/east,
