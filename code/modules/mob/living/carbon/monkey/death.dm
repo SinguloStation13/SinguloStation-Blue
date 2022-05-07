@@ -7,5 +7,5 @@
 *///Singulostation end
 
 /mob/living/carbon/monkey/death(gibbed)
-	walk(src,0) // Stops dead monkeys from fleeing their attacker or climbing out from inside His Grace
+	SSmove_manager.stop_looping(src) // Stops dead monkeys from fleeing their attacker or climbing out from inside His Grace
 	. = ..()

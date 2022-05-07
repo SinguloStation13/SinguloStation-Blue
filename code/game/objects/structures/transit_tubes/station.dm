@@ -133,10 +133,17 @@
 			close_animation()
 			sleep(CLOSE_DURATION + 2)
 			if(open_status == STATION_TUBE_CLOSED && pod && pod.loc == loc)
+<<<<<<< HEAD
 				pod.follow_tube()
 			pod_moving = FALSE
 			return TRUE
 	return FALSE
+=======
+				pod.follow_tube(src)
+			pod_moving = 0
+			return 1
+	return 0
+>>>>>>> c9cb034cb1... Ports Movement loop from TG (#6697)
 
 /obj/structure/transit_tube/station/process()
 	if(!pod_moving)
