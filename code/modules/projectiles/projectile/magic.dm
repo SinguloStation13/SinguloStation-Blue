@@ -656,7 +656,7 @@
 	qdel(chain)
 	. = ..()
 
-/obj/item/projectile/magic/aoe/fireball
+/obj/item/projectile/magic/fireball
 	name = "bolt of fireball"
 	icon_state = "fireball"
 	damage = 10
@@ -669,14 +669,14 @@
 	var/exp_flash = 3
 	var/exp_fire = 2
 
-/obj/item/projectile/magic/aoe/fireball/New(loc, spell_level)
+/obj/item/projectile/magic/fireball/New(loc, spell_level)
 	. = ..()
 	exp_fire += spell_level
 	exp_flash += spell_level
 	exp_light += spell_level
 	exp_heavy = max(spell_level - 2, 0)
 
-/obj/item/projectile/magic/aoe/fireball/on_hit(target)
+/obj/item/projectile/magic/fireball/on_hit(target)
 	. = ..()
 	if(ismob(target))
 		var/mob/living/M = target
@@ -687,14 +687,14 @@
 	var/turf/T = get_turf(target)
 	explosion(T, -1, exp_heavy, exp_light, exp_flash, 0, flame_range = exp_fire)
 
-/obj/item/projectile/magic/aoe/fireball/infernal
+/obj/item/projectile/magic/fireball/infernal
 	name = "infernal fireball"
 	exp_heavy = -1
 	exp_light = -1
 	exp_flash = 4
 	exp_fire= 5
 
-/obj/item/projectile/magic/aoe/fireball/infernal/on_hit(target)
+/obj/item/projectile/magic/fireball/infernal/on_hit(target)
 	. = ..()
 	if(ismob(target))
 		var/mob/living/M = target
