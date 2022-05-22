@@ -69,7 +69,14 @@
 /mob/living/simple_animal/eminence/start_pulling(atom/movable/AM, state, force = move_force, supress_message = FALSE)
 	return FALSE
 
+<<<<<<< HEAD
 /mob/living/simple_animal/eminence/Initialize()
+=======
+/mob/living/simple_animal/eminence/rad_act(amount)
+	return
+
+/mob/living/simple_animal/eminence/Initialize(mapload)
+>>>>>>> a7acc11661... Fixes eminence getting flashbanged and vendors throwing items at it (#6905)
 	. = ..()
 	GLOB.clockcult_eminence = src
 	//Add spells
@@ -136,6 +143,9 @@
 	return tab_data
 
 /mob/living/simple_animal/eminence/update_health_hud()
+	return
+
+/mob/living/simple_animal/eminence/flash_act(intensity, override_blindness_check, affect_silicon, visual, type)
 	return
 
 //Eminence abilities
