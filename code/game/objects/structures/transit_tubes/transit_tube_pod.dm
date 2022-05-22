@@ -10,7 +10,7 @@
 	var/occupied_icon_state = "pod_occupied"
 
 
-/obj/structure/transit_tube_pod/Initialize()
+/obj/structure/transit_tube_pod/Initialize(mapload)
 	. = ..()
 	air_contents.set_moles(GAS_O2, MOLES_O2STANDARD)
 	air_contents.set_moles(GAS_N2, MOLES_N2STANDARD)

@@ -19,7 +19,7 @@
 		projector.signs += src
 	..()
 
-/obj/structure/holosign/Initialize()
+/obj/structure/holosign/Initialize(mapload)
 	. = ..()
 	alpha = 0
 	SSvis_overlays.add_vis_overlay(src, icon, icon_state, ABOVE_MOB_LAYER, plane, dir, add_appearance_flags = RESET_ALPHA) //you see mobs under it, but you hit them like they are above it
@@ -97,7 +97,7 @@
 	rad_insulation = RAD_LIGHT_INSULATION
 	//More vars and some procs in singulostation/code/game/objects/structures/holosign.dm
 
-/obj/structure/holosign/barrier/atmos/Initialize()
+/obj/structure/holosign/barrier/atmos/Initialize(mapload)
 	. = ..()
 	var/turf/local = get_turf(loc)
 	ADD_TRAIT(local, TRAIT_FIREDOOR_STOP, TRAIT_GENERIC)

@@ -232,7 +232,7 @@ GLOBAL_LIST_INIT(fluid_duct_recipes, list(
 	var/mode = BUILD_MODE | PAINT_MODE | DESTROY_MODE | WRENCH_MODE
 	var/locked = FALSE //wheter we can change categories. Useful for the plumber
 
-/obj/item/pipe_dispenser/Initialize()
+/obj/item/pipe_dispenser/Initialize(mapload)
 	. = ..()
 	spark_system = new
 	spark_system.set_up(5, 0, src)
@@ -527,7 +527,7 @@ GLOBAL_LIST_INIT(fluid_duct_recipes, list(
 	category = PLUMBING_CATEGORY
 	locked = TRUE
 
-/obj/item/pipe_dispenser/plumbing/Initialize()
+/obj/item/pipe_dispenser/plumbing/Initialize(mapload)
 	. = ..()
 	spark_system = new
 	spark_system.set_up(5, 0, src)
