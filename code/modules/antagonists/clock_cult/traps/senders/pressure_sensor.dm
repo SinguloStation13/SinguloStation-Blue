@@ -20,7 +20,14 @@
 
 /datum/component/clockwork_trap/pressure_sensor/Initialize()
 	. = ..()
+<<<<<<< HEAD
 	RegisterSignal(parent, COMSIG_ATOM_ENTERED, .proc/on_entered)
+=======
+	var/static/list/loc_connections = list(
+		COMSIG_ATOM_ENTERED = .proc/on_entered,
+	)
+	AddComponent(/datum/component/connect_loc_behalf, parent, loc_connections)
+>>>>>>> b300e9e206... Fixes clockcult pressure sensors (#7045)
 
 /datum/component/clockwork_trap/pressure_sensor/proc/on_entered(datum/source, atom/movable/AM)
 	SIGNAL_HANDLER
