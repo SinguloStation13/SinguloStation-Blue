@@ -113,8 +113,12 @@
 	color = "#506bc7"
 	greyscale_colors = "#506bc7"
 	categories = list(MAT_CATEGORY_ORE = TRUE)
+<<<<<<< HEAD
 	sheet_type = /obj/item/stack/sheet/bluespace_crystal
 	ore_type = /obj/item/stack/ore/bluespace_crystal
+=======
+	sheet_type = /obj/item/stack/ore/bluespace_crystal/refined
+>>>>>>> cc1b66f281... Removes bluespace polycrystals (#7035)
 
 ///Honks and slips
 /datum/material/bananium
