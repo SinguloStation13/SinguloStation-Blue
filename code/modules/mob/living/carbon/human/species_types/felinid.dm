@@ -4,11 +4,14 @@
 	id = SPECIES_FELINID
 	bodyflag = FLAG_FELINID
 	examine_limb_id = SPECIES_HUMAN
+<<<<<<< HEAD
 	say_mod = "meows"
 
 
 	disliked_food = VEGETABLES | SUGAR
 	liked_food = DAIRY | MEAT
+=======
+>>>>>>> 121060bd9b... Moves taste to tongues (#6981)
 
 	mutant_bodyparts = list("ears", "tail_human")
 	default_features = list("mcolor" = "FFF", "wings" = "None")
