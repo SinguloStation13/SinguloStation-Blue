@@ -217,6 +217,11 @@
 	icon_state = "atmos_envirohelm"
 	item_state = "atmos_envirohelm"
 
+/obj/item/clothing/head/helmet/space/plasmaman/mailman
+	name = "mailman envirosuit helmet"
+	desc = "<i>'Right-on-time'</i> mail plasmamen service head wear."
+	greyscale_colors = "#091544#e6c447#091544"
+
 /obj/item/clothing/head/helmet/space/plasmaman/cargo
 	name = "cargo envirosuit helmet"
 	desc = "An plasmaman envirohelmet designed for cargo techs and quartermasters."
@@ -567,7 +572,17 @@
 	item_state = "cargo_openvirohelm"
 	visor_icon = "openvisor"
 
+<<<<<<< HEAD
 /obj/item/clothing/head/helmet/space/plasmaman/mining/mark2
+=======
+/obj/item/clothing/head/helmet/space/plasmaman/mark2/mailman
+	name = "mailman Mk.II envirosuit helmet"
+	desc = "<i>'Right-on-time'</i> a modernized mail plasmamen service head wear."
+	greyscale_colors = "#091544#e6c447"
+
+
+/obj/item/clothing/head/helmet/space/plasmaman/mark2/mining
+>>>>>>> ae3da827fb... Ports Mail From /tg/ which was ported from Kiwi [TM Ready] (#6263)
 	name = "mining Mk.II envirosuit helmet"
 	desc = "A new styling of the classi khaki helmet given to plasmamen miners."
 	icon_state = "explorer_openvirohelm"
@@ -796,7 +811,16 @@
 	item_state = "cargo_armouredenvirohelm"
 	visor_icon = "armouredenvisor"
 
+<<<<<<< HEAD
 /obj/item/clothing/head/helmet/space/plasmaman/mining/protective
+=======
+/obj/item/clothing/head/helmet/space/plasmaman/protective/mailman
+	name = "mailman Mk.II envirosuit helmet"
+	desc = "<i>'Right-on-time'</i> a braced mail plasmamen service head wear."
+	greyscale_colors = "#091544#e6c447"
+
+/obj/item/clothing/head/helmet/space/plasmaman/protective/mining
+>>>>>>> ae3da827fb... Ports Mail From /tg/ which was ported from Kiwi [TM Ready] (#6263)
 	name = "mining Mk.II envirosuit helmet"
 	desc = "A new styling of the classic khaki helmet given to plasmamen miners."
 	icon_state = "explorer_armouredenvirohelm"
