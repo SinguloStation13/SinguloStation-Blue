@@ -11,6 +11,7 @@
  *		Sheet Snatcher
  *		Book Bag
  *      Biowaste Bag
+ * 		mail bag
  *
  *	-Sayu
  */
@@ -425,6 +426,7 @@
 	STR.max_items = 300                   //Singulostation edit - Buff construction bags
 	STR.max_w_class = WEIGHT_CLASS_NORMAL //Singulostation edit - Buff construction bags
 	STR.insert_preposition = "in"
+<<<<<<< HEAD
 	//Singulostation begin - Buff construction bags
 	STR.can_hold = typecacheof(list(
 		/obj/item/stack/ore/bluespace_crystal,
@@ -440,3 +442,31 @@
 		/obj/item/wallframe/camera
 		))
 	//Singulostation end
+=======
+	STR.can_hold = typecacheof(list(/obj/item/stack/ore/bluespace_crystal, /obj/item/assembly, /obj/item/stock_parts, /obj/item/reagent_containers/glass/beaker, /obj/item/stack/cable_coil, /obj/item/circuitboard, /obj/item/electronics))
+
+// -----------------------------
+//           mail bag
+// -----------------------------
+
+/obj/item/storage/bag/mail
+	name = "mail bag"
+	desc = "A bag for letters, envelopes, and other postage."
+	icon = 'icons/obj/bureaucracy.dmi'
+	icon_state = "mailbag"
+	resistance_flags = FLAMMABLE
+
+/obj/item/storage/bag/mail/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	STR.max_combined_w_class = 32
+	STR.max_items = 32
+	STR.display_numerical_stacking = FALSE
+	STR.can_hold = typecacheof (list(	/obj/item/mail,
+										/obj/item/small_delivery,
+										/obj/item/paper,
+										/obj/item/reagent_containers/food/condiment/milk,
+										/obj/item/reagent_containers/food/snacks/store/bread/plain
+									))
+>>>>>>> ae3da827fb... Ports Mail From /tg/ which was ported from Kiwi [TM Ready] (#6263)
