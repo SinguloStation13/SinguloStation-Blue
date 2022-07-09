@@ -440,6 +440,11 @@
 
 	for(var/mob/dead/observer/G in GLOB.player_list)
 		candidates += G
+<<<<<<< HEAD
+=======
+
+	return pollCandidates(Question, jobbanType, gametypeCheck, be_special_flag, poll_time, ignore_category, flashwindow, candidates, req_hours)
+>>>>>>> ffaed84913... Revert "Players who suicide or cryo are not elegible for Antagonist roles for 5 minutes (#7156)" (#7233)
 
 	return pollCandidates(Question, jobbanType, gametypeCheck, be_special_flag, poll_time, ignore_category, flashwindow, candidates)
 
