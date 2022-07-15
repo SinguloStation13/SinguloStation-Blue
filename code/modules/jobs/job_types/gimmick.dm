@@ -7,7 +7,6 @@
 	spawn_positions = 0
 	supervisors = "no one"
 	selection_color = "#dddddd"
-	chat_color = "#FFFFFF"
 
 	exp_type_department = EXP_TYPE_GIMMICK
 
@@ -33,7 +32,6 @@
 	access = list(ACCESS_MORGUE, ACCESS_MAINT_TUNNELS)
 	minimal_access = list(ACCESS_MORGUE, ACCESS_MAINT_TUNNELS)
 	gimmick = TRUE
-	chat_color = "#bd9e86"
 
 	species_outfits = list(
 		SPECIES_PLASMAMAN = /datum/outfit/plasmaman
@@ -58,7 +56,11 @@
 	access = list(ACCESS_THEATRE, ACCESS_MAINT_TUNNELS)
 	minimal_access = list(ACCESS_THEATRE, ACCESS_MAINT_TUNNELS)
 	gimmick = TRUE
+<<<<<<< HEAD
 	chat_color = "#b898b3"
+=======
+	paycheck_department = ACCOUNT_SRV
+>>>>>>> 543ef9b3a7... Give custom job their own chat color + better revenant chat color (#7250)
 
 	species_outfits = list(
 		SPECIES_PLASMAMAN = /datum/outfit/plasmaman/magic
@@ -126,7 +128,6 @@
 	minimal_access = list(ACCESS_MAINT_TUNNELS, ACCESS_MEDICAL)
 	paycheck = PAYCHECK_EASY
 	gimmick = TRUE
-	chat_color = "#a2dfdc"
 	departments = DEPARTMENT_MEDICAL
 
 	species_outfits = list(
@@ -152,7 +153,6 @@
 	minimal_access = list(ACCESS_MAINT_TUNNELS)
 	gimmick = TRUE
 	paycheck = PAYCHECK_VIP //our power is being fucking rich
-	chat_color = "#ebc96b"
 
 	species_outfits = list(
 		SPECIES_PLASMAMAN = /datum/outfit/plasmaman/vip
