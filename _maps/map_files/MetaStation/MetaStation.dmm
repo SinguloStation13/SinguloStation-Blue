@@ -50955,6 +50955,7 @@
 	name = "Medical Security Checkpoint APC";
 	pixel_x = -24
 	},
+<<<<<<< HEAD
 /obj/machinery/airalarm{
 	pixel_y = 28
 	},
@@ -50963,6 +50964,12 @@
 	},
 /obj/structure/closet/secure_closet/security/med,
 /obj/effect/turf_decal/tile/red{
+=======
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet/restrooms)
+"fXi" = (
+/obj/effect/turf_decal/tile/purple{
+>>>>>>> 2041a1375c... Meta Station: Replaces the door to Robotics with a glass version (#7349)
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/red{
@@ -50990,8 +50997,20 @@
 	c_tag = "Security Post - Medbay";
 	network = list("ss13","medbay")
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/tile/red{
 	dir = 1
+=======
+/obj/machinery/door/airlock/research/glass{
+	name = "Robotics Lab";
+	req_access_txt = "29"
+	},
+/turf/open/floor/plasteel,
+/area/science/robotics/lab)
+"fXm" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+>>>>>>> 2041a1375c... Meta Station: Replaces the door to Robotics with a glass version (#7349)
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 4
