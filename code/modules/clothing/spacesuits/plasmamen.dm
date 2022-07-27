@@ -180,7 +180,7 @@
 	icon_state = "chemist_envirohelm"
 	item_state = "chemist_envirohelm"
 
-/obj/item/clothing/head/helmet/space/plasmaman/emt
+/obj/item/clothing/head/helmet/space/plasmaman/paramedic
 	name = "paramedic envirosuit helmet"
 	desc = "An envirosuit helmet only for the bravest medical plasmaman."
 	icon_state = "emt_envirohelm"
@@ -517,7 +517,11 @@
 	item_state = "chemist_openvirohelm"
 	visor_icon = "openvisor"
 
+<<<<<<< HEAD
 /obj/item/clothing/head/helmet/space/plasmaman/emt/mark2
+=======
+/obj/item/clothing/head/helmet/space/plasmaman/mark2/paramedic
+>>>>>>> e128c6cae9... Modernize job strings into DEFINES (#7093)
 	name = "paramedic Mk.II envirosuit helmet"
 	desc = "A new and improved envirosuit helmet only for the bravest medical plasmaman."
 	icon_state = "emt_openvirohelm"
@@ -746,8 +750,13 @@
 	item_state = "chemist_armouredenvirohelm"
 	visor_icon = "armouredenvisor"
 
+<<<<<<< HEAD
 /obj/item/clothing/head/helmet/space/plasmaman/emt/protective
 	name = "paramedic Mk.II envirosuit helmet"
+=======
+/obj/item/clothing/head/helmet/space/plasmaman/protective/paramedic
+	name = "paramedic protective envirosuit helmet"
+>>>>>>> e128c6cae9... Modernize job strings into DEFINES (#7093)
 	desc = "A new and improved envirosuit helmet only for the bravest medical plasmaman."
 	icon_state = "emt_armouredenvirohelm"
 	item_state = "emt_armouredenvirohelm"
