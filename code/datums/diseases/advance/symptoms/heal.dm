@@ -505,7 +505,7 @@ im not even gonna bother with these for the following symptoms. typed em out, co
 	var/mob/living/carbon/M = A.affected_mob
 	ownermind = M.mind
 	if(!A.carrier && !A.dormant)
-		sizemult = CLAMP((0.5 + A.stage_rate / 10), 1.1, 2.5)
+		sizemult = CLAMP((0.5 + A.stage_rate / 10), 1.1, 1.5)
 		M.resize = sizemult
 		M.update_transform()
 
@@ -530,7 +530,7 @@ im not even gonna bother with these for the following symptoms. typed em out, co
 					new /obj/effect/spawner/lootdrop/teratoma/minor(M.loc)
 				if(tetsuo)
 					var/list/missing = M.get_missing_limbs()
-					if(prob(35))
+					if(prob(35) && M.mind && ishuman(M))
 						new /obj/effect/decal/cleanable/blood/gibs(M.loc) //yes. this is very messy. very, very messy.
 						new /obj/effect/spawner/lootdrop/teratoma/major(M.loc)
 					if(missing.len) //we regrow one missing limb
@@ -575,6 +575,7 @@ im not even gonna bother with these for the following symptoms. typed em out, co
 	animate(pixel_z = 0, transform = turn(matrix(), pick(-12, 0, 12)), time=2) //waddle desizing is an issue, because you can game it to use this symptom and become small
 	animate(pixel_z = 0, transform = matrix(), time = 0) //so, instead, we use waddle desizing to desize you from this symptom, instead of a transformation, because it wont shrink you naturally
 
+<<<<<<< HEAD
 //they are used for the maintenance spawn, for ling teratoma see changeling\teratoma.dm
 /obj/effect/mob_spawn/teratomamonkey //spawning these is one of the downsides of overclocking the symptom
 	name = "fleshy mass"
@@ -617,4 +618,6 @@ im not even gonna bother with these for the following symptoms. typed em out, co
 	else
 		..()
 
+=======
+>>>>>>> 0dec983fcc... nerfs pituitary disruption's disruption (#7421)
 #undef TELEPORT_COOLDOWN
