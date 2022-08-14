@@ -25111,8 +25111,21 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+<<<<<<< HEAD
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
+=======
+/obj/effect/turf_decal/bot,
+/obj/machinery/rnd/production/circuit_imprinter,
+/turf/open/floor/plasteel/dark/corner,
+/area/engine/storage_shared)
+"bvf" = (
+/obj/item/radio/intercom{
+	freerange = 1;
+	name = "Common Channel";
+	pixel_x = -27;
+	pixel_y = -7
+>>>>>>> 24c39f385f... Engineering Once Again Gets Generic Circuit Imprinters (#7410)
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
