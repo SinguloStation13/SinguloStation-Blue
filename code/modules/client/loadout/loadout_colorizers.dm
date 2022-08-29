@@ -27,3 +27,10 @@
     path = /obj/item/colorizer/iandeathsquad
     allowed_roles = list("Head of Personnel")
     cost = 20000
+
+/datum/gear/colorizer/pdatransparent
+	display_name = "Transparent PDA Colorizer"
+	path = /obj/item/colorizer/pdatransparent
+	cost = 20000
+
+
