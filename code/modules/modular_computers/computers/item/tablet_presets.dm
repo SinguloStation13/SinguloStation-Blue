@@ -25,7 +25,22 @@
 	var/obj/item/computer_hardware/hard_drive/small/hard_drive = find_hardware_by_name("solid state drive")
 	hard_drive.store_file(new /datum/computer_file/program/budgetorders)
 
+<<<<<<< HEAD
 /obj/item/modular_computer/tablet/preset/cargo/Initialize()
+=======
+/obj/item/modular_computer/tablet/preset/science/Initialize(mapload)
+	. = ..()
+	var/obj/item/computer_hardware/hard_drive/small/hard_drive = new
+	install_component(new /obj/item/computer_hardware/processor_unit/small)
+	install_component(new /obj/item/computer_hardware/battery(src, /obj/item/stock_parts/cell/computer))
+	install_component(hard_drive)
+	install_component(new /obj/item/computer_hardware/card_slot)
+	install_component(new /obj/item/computer_hardware/network_card)
+	install_component(new /obj/item/computer_hardware/radio_card)
+	hard_drive.store_file(new /datum/computer_file/program/signaller)
+
+/obj/item/modular_computer/tablet/preset/cargo/Initialize(mapload)
+>>>>>>> e561c55e4b... ModPC Update V2 (#7551)
 	. = ..()
 	var/obj/item/computer_hardware/hard_drive/small/hard_drive = new
 	install_component(new /obj/item/computer_hardware/processor_unit/small)
