@@ -11,7 +11,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/chair/comfy/shuttle,
+/obj/structure/chair/fancy/shuttle,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "cu" = (
@@ -162,7 +162,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/exploration)
 "sT" = (
-/obj/structure/chair/comfy/shuttle{
+/obj/structure/chair/fancy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
@@ -204,7 +204,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/chair/comfy/shuttle{
+/obj/structure/chair/fancy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
@@ -227,7 +227,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/chair/comfy/shuttle,
+/obj/structure/chair/fancy/shuttle,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "CU" = (
@@ -286,7 +286,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
 	},
-/obj/structure/chair/comfy/shuttle,
+/obj/structure/chair/fancy/shuttle,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "IS" = (
@@ -311,7 +311,7 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/exploration)
 "Nx" = (
-/obj/structure/chair/comfy/shuttle{
+/obj/structure/chair/fancy/shuttle{
 	dir = 1
 	},
 /obj/item/radio/intercom{
