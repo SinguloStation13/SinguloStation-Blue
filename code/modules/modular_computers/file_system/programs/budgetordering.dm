@@ -54,13 +54,21 @@
 	if(get_buyer_id(user))
 		if((ACCESS_HEADS in id_card.access) || (ACCESS_QM in id_card.access))
 			requestonly = FALSE
+<<<<<<< HEAD
 			buyer = SSeconomy.get_dep_account(id_card.registered_account.account_job.paycheck_department)
+=======
+			buyer = SSeconomy.get_dep_account(id_card?.registered_account?.account_department)
+>>>>>>> 2ee586c7bc... VIP gets their own department budget than the civilian budget, and gets paid from it. (+department account lock feature) (#7330)
 			can_approve_requests = TRUE
 		else
 			requestonly = TRUE
 			can_approve_requests = FALSE
 	else
 		requestonly = TRUE
+	if(isnull(buyer))
+		buyer = SSeconomy.get_dep_account(ACCOUNT_CAR)
+	else if(buyer.is_nonstation_account())
+		buyer = SSeconomy.get_dep_account(ACCOUNT_CAR)
 	if(buyer)
 		data["points"] = buyer.account_balance
 
@@ -213,7 +221,18 @@
 					computer.say("The application rejects [id_card].")
 					return
 				else
+<<<<<<< HEAD
 					account = SSeconomy.get_dep_account(id_card?.registered_account?.account_job.paycheck_department)
+=======
+					account = SSeconomy.get_dep_account(id_card?.registered_account?.account_department)
+					if(isnull(account))
+						computer.say("The application failed to identify [id_card].")
+						return
+					else if(account.is_nonstation_account())
+						computer.say("The application rejects [id_card].")
+						return
+
+>>>>>>> 2ee586c7bc... VIP gets their own department budget than the civilian budget, and gets paid from it. (+department account lock feature) (#7330)
 
 			var/turf/T = get_turf(src)
 			var/datum/supply_order/SO = new(pack, name, rank, ckey, reason, account)
@@ -241,7 +260,13 @@
 				if(SO.id == id)
 					var/obj/item/card/id/id_card = get_buyer_id(usr)
 					if(id_card && id_card?.registered_account)
+<<<<<<< HEAD
 						SO.paying_account = SSeconomy.get_dep_account(id_card?.registered_account?.account_job.paycheck_department)
+=======
+						SO.paying_account = SSeconomy.get_dep_account(id_card?.registered_account?.account_department)
+					if(SO.paying_account.is_nonstation_account())
+						return
+>>>>>>> 2ee586c7bc... VIP gets their own department budget than the civilian budget, and gets paid from it. (+department account lock feature) (#7330)
 					SSshuttle.requestlist -= SO
 					SSshuttle.shoppinglist += SO
 					. = TRUE
